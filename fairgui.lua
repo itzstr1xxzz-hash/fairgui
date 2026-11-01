@@ -7,7 +7,7 @@
  Y888P  ~Y8888P' Y888888P      888888D      Y88888P ~Y8888P' YP   YP  CONVERTER 
 ]=]
 
--- Instances: 77 | Scripts: 37 | Modules: 0 | Tags: 0
+-- Instances: 40 | Scripts: 19 | Modules: 0 | Tags: 0
 local G2L = {};
 
 -- StarterGui.fair ass gui
@@ -228,125 +228,129 @@ G2L["19"] = Instance.new("LocalScript", G2L["18"]);
 
 
 
--- StarterGui.fair ass gui.Frame.Frame.TextButton.Frame5
-G2L["1a"] = Instance.new("Frame", G2L["18"]);
-G2L["1a"]["Visible"] = false;
+-- StarterGui.fair ass gui.Frame.Frame.TextButton
+G2L["1a"] = Instance.new("TextButton", G2L["5"]);
 G2L["1a"]["BorderSizePixel"] = 0;
-G2L["1a"]["BackgroundColor3"] = Color3.fromRGB(26, 26, 26);
-G2L["1a"]["Size"] = UDim2.new(0, 692, 0, 316);
-G2L["1a"]["Position"] = UDim2.new(-1.19639, 0, 0.61501, 0);
+G2L["1a"]["TextSize"] = 14;
+G2L["1a"]["TextColor3"] = Color3.fromRGB(255, 255, 255);
+G2L["1a"]["BackgroundColor3"] = Color3.fromRGB(21, 21, 21);
+G2L["1a"]["FontFace"] = Font.new([[rbxasset://fonts/families/SourceSansPro.json]], Enum.FontWeight.Regular, Enum.FontStyle.Normal);
+G2L["1a"]["Size"] = UDim2.new(0, 129, 0, 37);
 G2L["1a"]["BorderColor3"] = Color3.fromRGB(0, 0, 0);
-G2L["1a"]["Name"] = [[Frame5]];
-G2L["1a"]["BackgroundTransparency"] = 0.3;
+G2L["1a"]["Text"] = [[Dex Agent edition]];
+G2L["1a"]["Position"] = UDim2.new(0.7552, 0, 0.56561, 0);
 
 
--- StarterGui.fair ass gui.Frame.Frame.TextButton.Frame5.LocalScript
+-- StarterGui.fair ass gui.Frame.Frame.TextButton.LocalScript
 G2L["1b"] = Instance.new("LocalScript", G2L["1a"]);
 
 
 
--- StarterGui.fair ass gui.Frame.Frame.TextButton.Frame5.Frame
-G2L["1c"] = Instance.new("Frame", G2L["1a"]);
-G2L["1c"]["BorderSizePixel"] = 5;
-G2L["1c"]["BackgroundColor3"] = Color3.fromRGB(63, 63, 63);
-G2L["1c"]["Size"] = UDim2.new(0, 625, 0, 221);
-G2L["1c"]["Position"] = UDim2.new(0.04769, 0, 0.14873, 0);
+-- StarterGui.fair ass gui.Frame.Frame.TextButton
+G2L["1c"] = Instance.new("TextButton", G2L["5"]);
+G2L["1c"]["BorderSizePixel"] = 0;
+G2L["1c"]["TextSize"] = 14;
+G2L["1c"]["TextColor3"] = Color3.fromRGB(255, 255, 255);
+G2L["1c"]["BackgroundColor3"] = Color3.fromRGB(21, 21, 21);
+G2L["1c"]["FontFace"] = Font.new([[rbxasset://fonts/families/SourceSansPro.json]], Enum.FontWeight.Regular, Enum.FontStyle.Normal);
+G2L["1c"]["Size"] = UDim2.new(0, 129, 0, 37);
 G2L["1c"]["BorderColor3"] = Color3.fromRGB(0, 0, 0);
-G2L["1c"]["BackgroundTransparency"] = 0.4;
+G2L["1c"]["Text"] = [[Dex++]];
+G2L["1c"]["Position"] = UDim2.new(0.0208, 0, 0.79638, 0);
 
 
--- StarterGui.fair ass gui.Frame.Frame.TextButton.Frame5.Frame.TextButton
-G2L["1d"] = Instance.new("TextButton", G2L["1c"]);
-G2L["1d"]["BorderSizePixel"] = 0;
-G2L["1d"]["TextSize"] = 14;
-G2L["1d"]["TextColor3"] = Color3.fromRGB(255, 255, 255);
-G2L["1d"]["BackgroundColor3"] = Color3.fromRGB(21, 21, 21);
-G2L["1d"]["FontFace"] = Font.new([[rbxasset://fonts/families/SourceSansPro.json]], Enum.FontWeight.Regular, Enum.FontStyle.Normal);
-G2L["1d"]["Size"] = UDim2.new(0, 129, 0, 37);
-G2L["1d"]["BorderColor3"] = Color3.fromRGB(0, 0, 0);
-G2L["1d"]["Text"] = [[I HATE NIGGERS]];
-G2L["1d"]["Position"] = UDim2.new(0.0208, 0, 0.06787, 0);
-
-
--- StarterGui.fair ass gui.Frame.Frame.TextButton.Frame5.Frame.TextButton.LocalScript
-G2L["1e"] = Instance.new("LocalScript", G2L["1d"]);
+-- StarterGui.fair ass gui.Frame.Frame.TextButton.LocalScript
+G2L["1d"] = Instance.new("LocalScript", G2L["1c"]);
 
 
 
--- StarterGui.fair ass gui.Frame.Frame.TextButton.Frame5.Frame.TextButton
-G2L["1f"] = Instance.new("TextButton", G2L["1c"]);
-G2L["1f"]["BorderSizePixel"] = 0;
-G2L["1f"]["TextSize"] = 14;
-G2L["1f"]["TextColor3"] = Color3.fromRGB(0, 0, 0);
-G2L["1f"]["BackgroundColor3"] = Color3.fromRGB(200, 24, 0);
-G2L["1f"]["FontFace"] = Font.new([[rbxasset://fonts/families/SourceSansPro.json]], Enum.FontWeight.Regular, Enum.FontStyle.Normal);
-G2L["1f"]["Size"] = UDim2.new(0, 23, 0, 18);
-G2L["1f"]["BorderColor3"] = Color3.fromRGB(0, 0, 0);
-G2L["1f"]["Text"] = [[X]];
-G2L["1f"]["Position"] = UDim2.new(1, 0, -0.15837, 0);
+-- StarterGui.fair ass gui.Frame.Frame.TextButton
+G2L["1e"] = Instance.new("TextButton", G2L["5"]);
+G2L["1e"]["BorderSizePixel"] = 0;
+G2L["1e"]["TextSize"] = 14;
+G2L["1e"]["TextColor3"] = Color3.fromRGB(255, 255, 255);
+G2L["1e"]["BackgroundColor3"] = Color3.fromRGB(21, 21, 21);
+G2L["1e"]["FontFace"] = Font.new([[rbxasset://fonts/families/SourceSansPro.json]], Enum.FontWeight.Regular, Enum.FontStyle.Normal);
+G2L["1e"]["Size"] = UDim2.new(0, 129, 0, 37);
+G2L["1e"]["BorderColor3"] = Color3.fromRGB(0, 0, 0);
+G2L["1e"]["Text"] = [[Doge Army ]];
+G2L["1e"]["Position"] = UDim2.new(0.2752, 0, 0.79638, 0);
 
 
--- StarterGui.fair ass gui.Frame.Frame.TextButton.Frame5.Frame.TextButton.CloseButton
-G2L["20"] = Instance.new("LocalScript", G2L["1f"]);
-G2L["20"]["Name"] = [[CloseButton]];
-
-
--- StarterGui.fair ass gui.Frame.Frame.TextButton.Frame5.Frame.TextButton
-G2L["21"] = Instance.new("TextButton", G2L["1c"]);
-G2L["21"]["BorderSizePixel"] = 0;
-G2L["21"]["TextSize"] = 14;
-G2L["21"]["TextColor3"] = Color3.fromRGB(255, 255, 255);
-G2L["21"]["BackgroundColor3"] = Color3.fromRGB(21, 21, 21);
-G2L["21"]["FontFace"] = Font.new([[rbxasset://fonts/families/SourceSansPro.json]], Enum.FontWeight.Regular, Enum.FontStyle.Normal);
-G2L["21"]["Size"] = UDim2.new(0, 129, 0, 37);
-G2L["21"]["BorderColor3"] = Color3.fromRGB(0, 0, 0);
-G2L["21"]["Text"] = [[卐]];
-G2L["21"]["Position"] = UDim2.new(0.2752, 0, 0.06787, 0);
-
-
--- StarterGui.fair ass gui.Frame.Frame.TextButton.Frame5.Frame.TextButton.LocalScript
-G2L["22"] = Instance.new("LocalScript", G2L["21"]);
+-- StarterGui.fair ass gui.Frame.Frame.TextButton.LocalScript
+G2L["1f"] = Instance.new("LocalScript", G2L["1e"]);
 
 
 
--- StarterGui.fair ass gui.Frame.Frame.TextButton.Frame5.Frame.TextButton
-G2L["23"] = Instance.new("TextButton", G2L["1c"]);
-G2L["23"]["BorderSizePixel"] = 0;
-G2L["23"]["TextSize"] = 14;
-G2L["23"]["TextColor3"] = Color3.fromRGB(255, 255, 255);
-G2L["23"]["BackgroundColor3"] = Color3.fromRGB(21, 21, 21);
-G2L["23"]["FontFace"] = Font.new([[rbxasset://fonts/families/SourceSansPro.json]], Enum.FontWeight.Regular, Enum.FontStyle.Normal);
-G2L["23"]["Size"] = UDim2.new(0, 129, 0, 37);
-G2L["23"]["BorderColor3"] = Color3.fromRGB(0, 0, 0);
-G2L["23"]["Text"] = [[pornhub.com]];
-G2L["23"]["Position"] = UDim2.new(0.5216, 0, 0.06787, 0);
+-- StarterGui.fair ass gui.Frame.Frame.TextButton
+G2L["20"] = Instance.new("TextButton", G2L["5"]);
+G2L["20"]["BorderSizePixel"] = 0;
+G2L["20"]["TextSize"] = 14;
+G2L["20"]["TextColor3"] = Color3.fromRGB(255, 255, 255);
+G2L["20"]["BackgroundColor3"] = Color3.fromRGB(21, 21, 21);
+G2L["20"]["FontFace"] = Font.new([[rbxasset://fonts/families/SourceSansPro.json]], Enum.FontWeight.Regular, Enum.FontStyle.Normal);
+G2L["20"]["Size"] = UDim2.new(0, 129, 0, 37);
+G2L["20"]["BorderColor3"] = Color3.fromRGB(0, 0, 0);
+G2L["20"]["Text"] = [[not done yet]];
+G2L["20"]["Position"] = UDim2.new(0.5216, 0, 0.79638, 0);
 
 
--- StarterGui.fair ass gui.Frame.Frame.TextButton.Frame5.Frame.TextButton.LocalScript
-G2L["24"] = Instance.new("LocalScript", G2L["23"]);
-
-
-
--- StarterGui.fair ass gui.Frame.Frame.TextButton.Frame5.Frame.TextButton
-G2L["25"] = Instance.new("TextButton", G2L["1c"]);
-G2L["25"]["BorderSizePixel"] = 0;
-G2L["25"]["TextSize"] = 14;
-G2L["25"]["TextColor3"] = Color3.fromRGB(255, 255, 255);
-G2L["25"]["BackgroundColor3"] = Color3.fromRGB(21, 21, 21);
-G2L["25"]["FontFace"] = Font.new([[rbxasset://fonts/families/SourceSansPro.json]], Enum.FontWeight.Regular, Enum.FontStyle.Normal);
-G2L["25"]["Size"] = UDim2.new(0, 129, 0, 37);
-G2L["25"]["BorderColor3"] = Color3.fromRGB(0, 0, 0);
-G2L["25"]["Text"] = [[FUCK YOU]];
-G2L["25"]["Position"] = UDim2.new(0.7552, 0, 0.06787, 0);
-
-
--- StarterGui.fair ass gui.Frame.Frame.TextButton.Frame5.Frame.TextButton.LocalScript
-G2L["26"] = Instance.new("LocalScript", G2L["25"]);
+-- StarterGui.fair ass gui.Frame.Frame.TextButton.LocalScript
+G2L["21"] = Instance.new("LocalScript", G2L["20"]);
 
 
 
--- StarterGui.fair ass gui.Frame.Frame.TextButton.Frame5.Frame.TextButton
-G2L["27"] = Instance.new("TextButton", G2L["1c"]);
+-- StarterGui.fair ass gui.Frame.Frame.TextButton
+G2L["22"] = Instance.new("TextButton", G2L["5"]);
+G2L["22"]["BorderSizePixel"] = 0;
+G2L["22"]["TextSize"] = 14;
+G2L["22"]["TextColor3"] = Color3.fromRGB(255, 255, 255);
+G2L["22"]["BackgroundColor3"] = Color3.fromRGB(21, 21, 21);
+G2L["22"]["FontFace"] = Font.new([[rbxasset://fonts/families/SourceSansPro.json]], Enum.FontWeight.Regular, Enum.FontStyle.Normal);
+G2L["22"]["Size"] = UDim2.new(0, 129, 0, 37);
+G2L["22"]["BorderColor3"] = Color3.fromRGB(0, 0, 0);
+G2L["22"]["Text"] = [[not done yet]];
+G2L["22"]["Position"] = UDim2.new(0.7552, 0, 0.79638, 0);
+
+
+-- StarterGui.fair ass gui.Frame.Frame.TextButton.LocalScript
+G2L["23"] = Instance.new("LocalScript", G2L["22"]);
+
+
+
+-- StarterGui.fair ass gui.Frame.Frame.TextButton
+G2L["24"] = Instance.new("TextButton", G2L["5"]);
+G2L["24"]["BorderSizePixel"] = 0;
+G2L["24"]["TextSize"] = 14;
+G2L["24"]["TextColor3"] = Color3.fromRGB(0, 0, 0);
+G2L["24"]["BackgroundColor3"] = Color3.fromRGB(200, 24, 0);
+G2L["24"]["FontFace"] = Font.new([[rbxasset://fonts/families/SourceSansPro.json]], Enum.FontWeight.Regular, Enum.FontStyle.Normal);
+G2L["24"]["Size"] = UDim2.new(0, 23, 0, 18);
+G2L["24"]["BorderColor3"] = Color3.fromRGB(0, 0, 0);
+G2L["24"]["Text"] = [[X]];
+G2L["24"]["Position"] = UDim2.new(1.0176, 0, -0.21267, 0);
+
+
+-- StarterGui.fair ass gui.Frame.Frame.TextButton.CloseButton
+G2L["25"] = Instance.new("LocalScript", G2L["24"]);
+G2L["25"]["Name"] = [[CloseButton]];
+
+
+-- StarterGui.fair ass gui.Frame.Frame.TextLabel
+G2L["26"] = Instance.new("TextLabel", G2L["5"]);
+G2L["26"]["BorderSizePixel"] = 0;
+G2L["26"]["TextSize"] = 14;
+G2L["26"]["BackgroundColor3"] = Color3.fromRGB(44, 44, 44);
+G2L["26"]["FontFace"] = Font.new([[rbxasset://fonts/families/FredokaOne.json]], Enum.FontWeight.Regular, Enum.FontStyle.Normal);
+G2L["26"]["TextColor3"] = Color3.fromRGB(255, 255, 255);
+G2L["26"]["Size"] = UDim2.new(0, 669, 0, 41);
+G2L["26"]["BorderColor3"] = Color3.fromRGB(0, 0, 0);
+G2L["26"]["Text"] = [[FAIR ASS SCRIPT]];
+G2L["26"]["Position"] = UDim2.new(-0.0528, 0, -0.21267, 0);
+
+
+-- StarterGui.fair ass gui.Frame.Frame.TextButton
+G2L["27"] = Instance.new("TextButton", G2L["5"]);
 G2L["27"]["BorderSizePixel"] = 0;
 G2L["27"]["TextSize"] = 14;
 G2L["27"]["TextColor3"] = Color3.fromRGB(255, 255, 255);
@@ -354,349 +358,12 @@ G2L["27"]["BackgroundColor3"] = Color3.fromRGB(21, 21, 21);
 G2L["27"]["FontFace"] = Font.new([[rbxasset://fonts/families/SourceSansPro.json]], Enum.FontWeight.Regular, Enum.FontStyle.Normal);
 G2L["27"]["Size"] = UDim2.new(0, 129, 0, 37);
 G2L["27"]["BorderColor3"] = Color3.fromRGB(0, 0, 0);
-G2L["27"]["Text"] = [[FUCK ALL NIGGERS]];
-G2L["27"]["Position"] = UDim2.new(0.0208, 0, 0.32127, 0);
+G2L["27"]["Text"] = [[brookhaven lagger]];
+G2L["27"]["Position"] = UDim2.new(0.0208, 0, 0.56518, 0);
 
 
--- StarterGui.fair ass gui.Frame.Frame.TextButton.Frame5.Frame.TextButton.LocalScript
+-- StarterGui.fair ass gui.Frame.Frame.TextButton.LocalScript
 G2L["28"] = Instance.new("LocalScript", G2L["27"]);
-
-
-
--- StarterGui.fair ass gui.Frame.Frame.TextButton.Frame5.Frame.TextButton
-G2L["29"] = Instance.new("TextButton", G2L["1c"]);
-G2L["29"]["BorderSizePixel"] = 0;
-G2L["29"]["TextSize"] = 14;
-G2L["29"]["TextColor3"] = Color3.fromRGB(255, 255, 255);
-G2L["29"]["BackgroundColor3"] = Color3.fromRGB(21, 21, 21);
-G2L["29"]["FontFace"] = Font.new([[rbxasset://fonts/families/SourceSansPro.json]], Enum.FontWeight.Regular, Enum.FontStyle.Normal);
-G2L["29"]["Size"] = UDim2.new(0, 129, 0, 37);
-G2L["29"]["BorderColor3"] = Color3.fromRGB(0, 0, 0);
-G2L["29"]["Text"] = [[I LOVE WET PUSSY]];
-G2L["29"]["Position"] = UDim2.new(0.2752, 0, 0.32127, 0);
-
-
--- StarterGui.fair ass gui.Frame.Frame.TextButton.Frame5.Frame.TextButton.LocalScript
-G2L["2a"] = Instance.new("LocalScript", G2L["29"]);
-
-
-
--- StarterGui.fair ass gui.Frame.Frame.TextButton.Frame5.Frame.TextButton
-G2L["2b"] = Instance.new("TextButton", G2L["1c"]);
-G2L["2b"]["BorderSizePixel"] = 0;
-G2L["2b"]["TextSize"] = 14;
-G2L["2b"]["TextColor3"] = Color3.fromRGB(255, 255, 255);
-G2L["2b"]["BackgroundColor3"] = Color3.fromRGB(21, 21, 21);
-G2L["2b"]["FontFace"] = Font.new([[rbxasset://fonts/families/SourceSansPro.json]], Enum.FontWeight.Regular, Enum.FontStyle.Normal);
-G2L["2b"]["Size"] = UDim2.new(0, 129, 0, 37);
-G2L["2b"]["BorderColor3"] = Color3.fromRGB(0, 0, 0);
-G2L["2b"]["Text"] = [[SEX IS FUN]];
-G2L["2b"]["Position"] = UDim2.new(0.5216, 0, 0.32127, 0);
-
-
--- StarterGui.fair ass gui.Frame.Frame.TextButton.Frame5.Frame.TextButton.LocalScript
-G2L["2c"] = Instance.new("LocalScript", G2L["2b"]);
-
-
-
--- StarterGui.fair ass gui.Frame.Frame.TextButton.Frame5.Frame.TextButton
-G2L["2d"] = Instance.new("TextButton", G2L["1c"]);
-G2L["2d"]["BorderSizePixel"] = 0;
-G2L["2d"]["TextSize"] = 14;
-G2L["2d"]["TextColor3"] = Color3.fromRGB(255, 255, 255);
-G2L["2d"]["BackgroundColor3"] = Color3.fromRGB(21, 21, 21);
-G2L["2d"]["FontFace"] = Font.new([[rbxasset://fonts/families/SourceSansPro.json]], Enum.FontWeight.Regular, Enum.FontStyle.Normal);
-G2L["2d"]["Size"] = UDim2.new(0, 129, 0, 37);
-G2L["2d"]["BorderColor3"] = Color3.fromRGB(0, 0, 0);
-G2L["2d"]["Text"] = [[NIGGA]];
-G2L["2d"]["Position"] = UDim2.new(0.7552, 0, 0.32127, 0);
-
-
--- StarterGui.fair ass gui.Frame.Frame.TextButton.Frame5.Frame.TextButton.LocalScript
-G2L["2e"] = Instance.new("LocalScript", G2L["2d"]);
-
-
-
--- StarterGui.fair ass gui.Frame.Frame.TextButton.Frame5.Frame.TextButton
-G2L["2f"] = Instance.new("TextButton", G2L["1c"]);
-G2L["2f"]["BorderSizePixel"] = 0;
-G2L["2f"]["TextSize"] = 14;
-G2L["2f"]["TextColor3"] = Color3.fromRGB(255, 255, 255);
-G2L["2f"]["BackgroundColor3"] = Color3.fromRGB(21, 21, 21);
-G2L["2f"]["FontFace"] = Font.new([[rbxasset://fonts/families/SourceSansPro.json]], Enum.FontWeight.Regular, Enum.FontStyle.Normal);
-G2L["2f"]["Size"] = UDim2.new(0, 129, 0, 37);
-G2L["2f"]["BorderColor3"] = Color3.fromRGB(0, 0, 0);
-G2L["2f"]["Text"] = [[FUCKING HELL]];
-G2L["2f"]["Position"] = UDim2.new(0.7552, 0, 0.56561, 0);
-
-
--- StarterGui.fair ass gui.Frame.Frame.TextButton.Frame5.Frame.TextButton.LocalScript
-G2L["30"] = Instance.new("LocalScript", G2L["2f"]);
-
-
-
--- StarterGui.fair ass gui.Frame.Frame.TextButton.Frame5.Frame.TextButton
-G2L["31"] = Instance.new("TextButton", G2L["1c"]);
-G2L["31"]["BorderSizePixel"] = 0;
-G2L["31"]["TextSize"] = 14;
-G2L["31"]["TextColor3"] = Color3.fromRGB(255, 255, 255);
-G2L["31"]["BackgroundColor3"] = Color3.fromRGB(21, 21, 21);
-G2L["31"]["FontFace"] = Font.new([[rbxasset://fonts/families/SourceSansPro.json]], Enum.FontWeight.Regular, Enum.FontStyle.Normal);
-G2L["31"]["Size"] = UDim2.new(0, 129, 0, 37);
-G2L["31"]["BorderColor3"] = Color3.fromRGB(0, 0, 0);
-G2L["31"]["Text"] = [[PORN IS COOL]];
-G2L["31"]["Position"] = UDim2.new(0.5216, 0, 0.56561, 0);
-
-
--- StarterGui.fair ass gui.Frame.Frame.TextButton.Frame5.Frame.TextButton.LocalScript
-G2L["32"] = Instance.new("LocalScript", G2L["31"]);
-
-
-
--- StarterGui.fair ass gui.Frame.Frame.TextButton.Frame5.Frame.TextButton
-G2L["33"] = Instance.new("TextButton", G2L["1c"]);
-G2L["33"]["BorderSizePixel"] = 0;
-G2L["33"]["TextSize"] = 14;
-G2L["33"]["TextColor3"] = Color3.fromRGB(255, 255, 255);
-G2L["33"]["BackgroundColor3"] = Color3.fromRGB(21, 21, 21);
-G2L["33"]["FontFace"] = Font.new([[rbxasset://fonts/families/SourceSansPro.json]], Enum.FontWeight.Regular, Enum.FontStyle.Normal);
-G2L["33"]["Size"] = UDim2.new(0, 129, 0, 37);
-G2L["33"]["BorderColor3"] = Color3.fromRGB(0, 0, 0);
-G2L["33"]["Text"] = [[I LIKE RAPING LITTLE GIRLS]];
-G2L["33"]["Position"] = UDim2.new(0.2752, 0, 0.56561, 0);
-
-
--- StarterGui.fair ass gui.Frame.Frame.TextButton.Frame5.Frame.TextButton.LocalScript
-G2L["34"] = Instance.new("LocalScript", G2L["33"]);
-
-
-
--- StarterGui.fair ass gui.Frame.Frame.TextButton.Frame5.Frame.TextButton
-G2L["35"] = Instance.new("TextButton", G2L["1c"]);
-G2L["35"]["BorderSizePixel"] = 0;
-G2L["35"]["TextSize"] = 13;
-G2L["35"]["TextColor3"] = Color3.fromRGB(255, 255, 255);
-G2L["35"]["BackgroundColor3"] = Color3.fromRGB(21, 21, 21);
-G2L["35"]["FontFace"] = Font.new([[rbxasset://fonts/families/SourceSansPro.json]], Enum.FontWeight.Regular, Enum.FontStyle.Normal);
-G2L["35"]["Size"] = UDim2.new(0, 129, 0, 37);
-G2L["35"]["BorderColor3"] = Color3.fromRGB(0, 0, 0);
-G2L["35"]["Text"] = [[I LOVE TO RAPE BLACK BABYS]];
-G2L["35"]["Position"] = UDim2.new(0.0208, 0, 0.56561, 0);
-
-
--- StarterGui.fair ass gui.Frame.Frame.TextButton.Frame5.Frame.TextButton.LocalScript
-G2L["36"] = Instance.new("LocalScript", G2L["35"]);
-
-
-
--- StarterGui.fair ass gui.Frame.Frame.TextButton.Frame5.Frame.TextButton
-G2L["37"] = Instance.new("TextButton", G2L["1c"]);
-G2L["37"]["BorderSizePixel"] = 0;
-G2L["37"]["TextSize"] = 14;
-G2L["37"]["TextColor3"] = Color3.fromRGB(255, 255, 255);
-G2L["37"]["BackgroundColor3"] = Color3.fromRGB(21, 21, 21);
-G2L["37"]["FontFace"] = Font.new([[rbxasset://fonts/families/SourceSansPro.json]], Enum.FontWeight.Regular, Enum.FontStyle.Normal);
-G2L["37"]["Size"] = UDim2.new(0, 129, 0, 37);
-G2L["37"]["BorderColor3"] = Color3.fromRGB(0, 0, 0);
-G2L["37"]["Text"] = [[SHIT ON ALL NIGGERS]];
-G2L["37"]["Position"] = UDim2.new(0.7552, 0, 0.76923, 0);
-
-
--- StarterGui.fair ass gui.Frame.Frame.TextButton.Frame5.Frame.TextButton.LocalScript
-G2L["38"] = Instance.new("LocalScript", G2L["37"]);
-
-
-
--- StarterGui.fair ass gui.Frame.Frame.TextButton.Frame5.Frame.TextButton
-G2L["39"] = Instance.new("TextButton", G2L["1c"]);
-G2L["39"]["BorderSizePixel"] = 0;
-G2L["39"]["TextSize"] = 12;
-G2L["39"]["TextColor3"] = Color3.fromRGB(255, 255, 255);
-G2L["39"]["BackgroundColor3"] = Color3.fromRGB(21, 21, 21);
-G2L["39"]["FontFace"] = Font.new([[rbxasset://fonts/families/SourceSansPro.json]], Enum.FontWeight.Regular, Enum.FontStyle.Normal);
-G2L["39"]["Size"] = UDim2.new(0, 129, 0, 37);
-G2L["39"]["BorderColor3"] = Color3.fromRGB(0, 0, 0);
-G2L["39"]["Text"] = [[YOU ARE A FUCKING DUMBASS]];
-G2L["39"]["Position"] = UDim2.new(0.5216, 0, 0.76923, 0);
-
-
--- StarterGui.fair ass gui.Frame.Frame.TextButton.Frame5.Frame.TextButton.LocalScript
-G2L["3a"] = Instance.new("LocalScript", G2L["39"]);
-
-
-
--- StarterGui.fair ass gui.Frame.Frame.TextButton.Frame5.Frame.TextButton
-G2L["3b"] = Instance.new("TextButton", G2L["1c"]);
-G2L["3b"]["BorderSizePixel"] = 0;
-G2L["3b"]["TextSize"] = 14;
-G2L["3b"]["TextColor3"] = Color3.fromRGB(255, 255, 255);
-G2L["3b"]["BackgroundColor3"] = Color3.fromRGB(21, 21, 21);
-G2L["3b"]["FontFace"] = Font.new([[rbxasset://fonts/families/SourceSansPro.json]], Enum.FontWeight.Regular, Enum.FontStyle.Normal);
-G2L["3b"]["Size"] = UDim2.new(0, 129, 0, 37);
-G2L["3b"]["BorderColor3"] = Color3.fromRGB(0, 0, 0);
-G2L["3b"]["Text"] = [[FUCK YOU NIGGA]];
-G2L["3b"]["Position"] = UDim2.new(0.2752, 0, 0.76923, 0);
-
-
--- StarterGui.fair ass gui.Frame.Frame.TextButton.Frame5.Frame.TextButton.LocalScript
-G2L["3c"] = Instance.new("LocalScript", G2L["3b"]);
-
-
-
--- StarterGui.fair ass gui.Frame.Frame.TextButton.Frame5.Frame.TextButton
-G2L["3d"] = Instance.new("TextButton", G2L["1c"]);
-G2L["3d"]["BorderSizePixel"] = 0;
-G2L["3d"]["TextSize"] = 13;
-G2L["3d"]["TextColor3"] = Color3.fromRGB(255, 255, 255);
-G2L["3d"]["BackgroundColor3"] = Color3.fromRGB(21, 21, 21);
-G2L["3d"]["FontFace"] = Font.new([[rbxasset://fonts/families/SourceSansPro.json]], Enum.FontWeight.Regular, Enum.FontStyle.Normal);
-G2L["3d"]["Size"] = UDim2.new(0, 129, 0, 37);
-G2L["3d"]["BorderColor3"] = Color3.fromRGB(0, 0, 0);
-G2L["3d"]["Text"] = [[FUCK NIGGERS]];
-G2L["3d"]["Position"] = UDim2.new(0.0208, 0, 0.76923, 0);
-
-
--- StarterGui.fair ass gui.Frame.Frame.TextButton.Frame5.Frame.TextButton.LocalScript
-G2L["3e"] = Instance.new("LocalScript", G2L["3d"]);
-
-
-
--- StarterGui.fair ass gui.Frame.Frame.TextButton
-G2L["3f"] = Instance.new("TextButton", G2L["5"]);
-G2L["3f"]["BorderSizePixel"] = 0;
-G2L["3f"]["TextSize"] = 14;
-G2L["3f"]["TextColor3"] = Color3.fromRGB(255, 255, 255);
-G2L["3f"]["BackgroundColor3"] = Color3.fromRGB(21, 21, 21);
-G2L["3f"]["FontFace"] = Font.new([[rbxasset://fonts/families/SourceSansPro.json]], Enum.FontWeight.Regular, Enum.FontStyle.Normal);
-G2L["3f"]["Size"] = UDim2.new(0, 129, 0, 37);
-G2L["3f"]["BorderColor3"] = Color3.fromRGB(0, 0, 0);
-G2L["3f"]["Text"] = [[Dex Agent edition]];
-G2L["3f"]["Position"] = UDim2.new(0.7552, 0, 0.56561, 0);
-
-
--- StarterGui.fair ass gui.Frame.Frame.TextButton.LocalScript
-G2L["40"] = Instance.new("LocalScript", G2L["3f"]);
-
-
-
--- StarterGui.fair ass gui.Frame.Frame.TextButton
-G2L["41"] = Instance.new("TextButton", G2L["5"]);
-G2L["41"]["BorderSizePixel"] = 0;
-G2L["41"]["TextSize"] = 14;
-G2L["41"]["TextColor3"] = Color3.fromRGB(255, 255, 255);
-G2L["41"]["BackgroundColor3"] = Color3.fromRGB(21, 21, 21);
-G2L["41"]["FontFace"] = Font.new([[rbxasset://fonts/families/SourceSansPro.json]], Enum.FontWeight.Regular, Enum.FontStyle.Normal);
-G2L["41"]["Size"] = UDim2.new(0, 129, 0, 37);
-G2L["41"]["BorderColor3"] = Color3.fromRGB(0, 0, 0);
-G2L["41"]["Text"] = [[Dex++]];
-G2L["41"]["Position"] = UDim2.new(0.0208, 0, 0.79638, 0);
-
-
--- StarterGui.fair ass gui.Frame.Frame.TextButton.LocalScript
-G2L["42"] = Instance.new("LocalScript", G2L["41"]);
-
-
-
--- StarterGui.fair ass gui.Frame.Frame.TextButton
-G2L["43"] = Instance.new("TextButton", G2L["5"]);
-G2L["43"]["BorderSizePixel"] = 0;
-G2L["43"]["TextSize"] = 14;
-G2L["43"]["TextColor3"] = Color3.fromRGB(255, 255, 255);
-G2L["43"]["BackgroundColor3"] = Color3.fromRGB(21, 21, 21);
-G2L["43"]["FontFace"] = Font.new([[rbxasset://fonts/families/SourceSansPro.json]], Enum.FontWeight.Regular, Enum.FontStyle.Normal);
-G2L["43"]["Size"] = UDim2.new(0, 129, 0, 37);
-G2L["43"]["BorderColor3"] = Color3.fromRGB(0, 0, 0);
-G2L["43"]["Text"] = [[Doge Army ]];
-G2L["43"]["Position"] = UDim2.new(0.2752, 0, 0.79638, 0);
-
-
--- StarterGui.fair ass gui.Frame.Frame.TextButton.LocalScript
-G2L["44"] = Instance.new("LocalScript", G2L["43"]);
-
-
-
--- StarterGui.fair ass gui.Frame.Frame.TextButton
-G2L["45"] = Instance.new("TextButton", G2L["5"]);
-G2L["45"]["BorderSizePixel"] = 0;
-G2L["45"]["TextSize"] = 14;
-G2L["45"]["TextColor3"] = Color3.fromRGB(255, 255, 255);
-G2L["45"]["BackgroundColor3"] = Color3.fromRGB(21, 21, 21);
-G2L["45"]["FontFace"] = Font.new([[rbxasset://fonts/families/SourceSansPro.json]], Enum.FontWeight.Regular, Enum.FontStyle.Normal);
-G2L["45"]["Size"] = UDim2.new(0, 129, 0, 37);
-G2L["45"]["BorderColor3"] = Color3.fromRGB(0, 0, 0);
-G2L["45"]["Text"] = [[not done yet]];
-G2L["45"]["Position"] = UDim2.new(0.5216, 0, 0.79638, 0);
-
-
--- StarterGui.fair ass gui.Frame.Frame.TextButton.LocalScript
-G2L["46"] = Instance.new("LocalScript", G2L["45"]);
-
-
-
--- StarterGui.fair ass gui.Frame.Frame.TextButton
-G2L["47"] = Instance.new("TextButton", G2L["5"]);
-G2L["47"]["BorderSizePixel"] = 0;
-G2L["47"]["TextSize"] = 14;
-G2L["47"]["TextColor3"] = Color3.fromRGB(255, 255, 255);
-G2L["47"]["BackgroundColor3"] = Color3.fromRGB(21, 21, 21);
-G2L["47"]["FontFace"] = Font.new([[rbxasset://fonts/families/SourceSansPro.json]], Enum.FontWeight.Regular, Enum.FontStyle.Normal);
-G2L["47"]["Size"] = UDim2.new(0, 129, 0, 37);
-G2L["47"]["BorderColor3"] = Color3.fromRGB(0, 0, 0);
-G2L["47"]["Text"] = [[not done yet]];
-G2L["47"]["Position"] = UDim2.new(0.7552, 0, 0.79638, 0);
-
-
--- StarterGui.fair ass gui.Frame.Frame.TextButton.LocalScript
-G2L["48"] = Instance.new("LocalScript", G2L["47"]);
-
-
-
--- StarterGui.fair ass gui.Frame.Frame.TextButton
-G2L["49"] = Instance.new("TextButton", G2L["5"]);
-G2L["49"]["BorderSizePixel"] = 0;
-G2L["49"]["TextSize"] = 14;
-G2L["49"]["TextColor3"] = Color3.fromRGB(0, 0, 0);
-G2L["49"]["BackgroundColor3"] = Color3.fromRGB(200, 24, 0);
-G2L["49"]["FontFace"] = Font.new([[rbxasset://fonts/families/SourceSansPro.json]], Enum.FontWeight.Regular, Enum.FontStyle.Normal);
-G2L["49"]["Size"] = UDim2.new(0, 23, 0, 18);
-G2L["49"]["BorderColor3"] = Color3.fromRGB(0, 0, 0);
-G2L["49"]["Text"] = [[X]];
-G2L["49"]["Position"] = UDim2.new(1.0176, 0, -0.21267, 0);
-
-
--- StarterGui.fair ass gui.Frame.Frame.TextButton.CloseButton
-G2L["4a"] = Instance.new("LocalScript", G2L["49"]);
-G2L["4a"]["Name"] = [[CloseButton]];
-
-
--- StarterGui.fair ass gui.Frame.Frame.TextLabel
-G2L["4b"] = Instance.new("TextLabel", G2L["5"]);
-G2L["4b"]["BorderSizePixel"] = 0;
-G2L["4b"]["TextSize"] = 14;
-G2L["4b"]["BackgroundColor3"] = Color3.fromRGB(44, 44, 44);
-G2L["4b"]["FontFace"] = Font.new([[rbxasset://fonts/families/FredokaOne.json]], Enum.FontWeight.Regular, Enum.FontStyle.Normal);
-G2L["4b"]["TextColor3"] = Color3.fromRGB(255, 255, 255);
-G2L["4b"]["Size"] = UDim2.new(0, 669, 0, 41);
-G2L["4b"]["BorderColor3"] = Color3.fromRGB(0, 0, 0);
-G2L["4b"]["Text"] = [[FAIR ASS SCRIPT]];
-G2L["4b"]["Position"] = UDim2.new(-0.0528, 0, -0.21267, 0);
-
-
--- StarterGui.fair ass gui.Frame.Frame.TextButton
-G2L["4c"] = Instance.new("TextButton", G2L["5"]);
-G2L["4c"]["BorderSizePixel"] = 0;
-G2L["4c"]["TextSize"] = 14;
-G2L["4c"]["TextColor3"] = Color3.fromRGB(255, 255, 255);
-G2L["4c"]["BackgroundColor3"] = Color3.fromRGB(21, 21, 21);
-G2L["4c"]["FontFace"] = Font.new([[rbxasset://fonts/families/SourceSansPro.json]], Enum.FontWeight.Regular, Enum.FontStyle.Normal);
-G2L["4c"]["Size"] = UDim2.new(0, 129, 0, 37);
-G2L["4c"]["BorderColor3"] = Color3.fromRGB(0, 0, 0);
-G2L["4c"]["Text"] = [[brookhaven lagger]];
-G2L["4c"]["Position"] = UDim2.new(0.0208, 0, 0.56518, 0);
-
-
--- StarterGui.fair ass gui.Frame.Frame.TextButton.LocalScript
-G2L["4d"] = Instance.new("LocalScript", G2L["4c"]);
 
 
 
@@ -752,7 +419,8 @@ task.spawn(C_4);
 -- StarterGui.fair ass gui.Frame.Frame.TextButton.LocalScript
 local function C_7()
 local script = G2L["7"];
-	local test = script.Parent
+	script.Parent.MouseButton1Click:Connect(function()
+		local test = script.Parent
 	local frame = test.Parent
 	
 	test.MouseButton1Click:Connect(function()
@@ -866,12 +534,14 @@ local script = G2L["7"];
 		exPro(workspace)
 		asdf(workspace)	
 	end)
+	end)
 end;
 task.spawn(C_7);
 -- StarterGui.fair ass gui.Frame.Frame.TextButton.LocalScript
 local function C_9()
 local script = G2L["9"];
-	local test = script.Parent
+	script.Parent.MouseButton1Click:Connect(function()
+		local test = script.Parent
 	local frame = test.Parent
 	
 	test.MouseButton1Click:Connect(function()
@@ -918,12 +588,14 @@ local script = G2L["9"];
 		exPro(workspace)
 	end)
 		
+	end)
 end;
 task.spawn(C_9);
 -- StarterGui.fair ass gui.Frame.Frame.TextButton.LocalScript
 local function C_b()
 local script = G2L["b"];
-	local test = script.Parent
+	script.Parent.MouseButton1Click:Connect(function()
+		local test = script.Parent
 	local frame = test.Parent
 	
 	test.MouseButton1Click:Connect(function()
@@ -1485,12 +1157,14 @@ local script = G2L["b"];
 		end
 	
 	end)
+	end)
 end;
 task.spawn(C_b);
 -- StarterGui.fair ass gui.Frame.Frame.TextButton.LocalScript
 local function C_d()
 local script = G2L["d"];
-	local test = script.Parent
+	script.Parent.MouseButton1Click:Connect(function()
+		local test = script.Parent
 	local frame = test.Parent
 	
 	test.MouseButton1Click:Connect(function()
@@ -2895,12 +2569,14 @@ local script = G2L["d"];
 	
 	end)
 		
+	end)
 end;
 task.spawn(C_d);
 -- StarterGui.fair ass gui.Frame.Frame.TextButton.LocalScript
 local function C_f()
 local script = G2L["f"];
-	local test = script.Parent
+	script.Parent.MouseButton1Click:Connect(function()
+		local test = script.Parent
 	local frame = test.Parent
 	
 	test.MouseButton1Click:Connect(function()
@@ -3950,12 +3626,14 @@ local script = G2L["f"];
 			if not player:IsDescendantOf(game) then cleanupGuis() end
 		end)
 	end)
+	end)
 end;
 task.spawn(C_f);
 -- StarterGui.fair ass gui.Frame.Frame.TextButton.LocalScript
 local function C_11()
 local script = G2L["11"];
-	local test = script.Parent
+	script.Parent.MouseButton1Click:Connect(function()
+		local test = script.Parent
 	local frame = test.Parent
 	
 	test.MouseButton1Click:Connect(function()
@@ -3980,12 +3658,14 @@ local script = G2L["11"];
 	
 	
 	end)
+	end)
 end;
 task.spawn(C_11);
 -- StarterGui.fair ass gui.Frame.Frame.TextButton.LocalScript
 local function C_13()
 local script = G2L["13"];
-	local test = script.Parent
+	script.Parent.MouseButton1Click:Connect(function()
+		local test = script.Parent
 	local frame = test.Parent
 	
 	test.MouseButton1Click:Connect(function()
@@ -4075,12 +3755,14 @@ local script = G2L["13"];
 		end
 	end)
 	
+	end)
 end;
 task.spawn(C_13);
 -- StarterGui.fair ass gui.Frame.Frame.TextButton.LocalScript
 local function C_15()
 local script = G2L["15"];
-	local test = script.Parent
+	script.Parent.MouseButton1Click:Connect(function()
+		local test = script.Parent
 	local frame = test.Parent
 	
 	test.MouseButton1Click:Connect(function()
@@ -4659,12 +4341,14 @@ local script = G2L["15"];
 		char.Humanoid.Health = 220
 	end)
 		
+	end)
 end;
 task.spawn(C_15);
 -- StarterGui.fair ass gui.Frame.Frame.TextButton.LocalScript
 local function C_17()
 local script = G2L["17"];
-	
+	script.Parent.MouseButton1Click:Connect(function()
+		
 	local test = script.Parent
 	local frame = test.Parent
 	
@@ -5474,250 +5158,116 @@ local script = G2L["17"];
 		end)
 	end)
 	
+	end)
 end;
 task.spawn(C_17);
 -- StarterGui.fair ass gui.Frame.Frame.TextButton.LocalScript
 local function C_19()
 local script = G2L["19"];
 	script.Parent.MouseButton1Click:Connect(function()
-		script.Parent.Parent.Parent.Parent.Parent.Frame5.Visible = true
-		script.Parent.Parent.Parent.Parent.Parent.Frame5.Active = true
-		script.Parent.Parent.Parent.Parent.Parent.Frame5.Frame.Visible = true
-		script.Parent.Parent.Parent.Parent.Parent.Frame5.Frame.Active = true
-		script.Parent.Parent.Parent.Parent.Parent.Frame5.Frame.Frame.Visible = true
-		script.Parent.Parent.Parent.Parent.Parent.Frame5.Frame.Frame.Active = true
-		script.Parent.Parent.Parent.Parent.Parent.Frame5.Frame.Frame.Frame.Visible = true
-		script.Parent.Parent.Parent.Parent.Parent.Frame5.Frame.Frame.Frame.Active = true
-		script.Parent.Parent.Parent.Parent.Parent.Frame5.Frame.Frame.Frame.Frame.Visible = true
-	end)
-end;
-task.spawn(C_19);
--- StarterGui.fair ass gui.Frame.Frame.TextButton.Frame5.LocalScript
-local function C_1b()
-local script = G2L["1b"];
-	local idk = script.Parent
-	local idk = idk.Parent
-	
-	idk.MouseButton1Click:Connect(function()
-		local frame = script.Parent
-		local UIS = game:GetService("UserInputService")
-	
-		local dragging = false
-		local dragStart, startPos
-	
-		frame.Active = true
-	
-		frame.InputBegan:Connect(function(input)
-			if input.UserInputType == Enum.UserInputType.MouseButton1
-				or input.UserInputType == Enum.UserInputType.Touch then
-				dragging = true
-				dragStart = input.Position
-				startPos = frame.Position
-	
-				input.Changed:Connect(function()
-					if input.UserInputState == Enum.UserInputState.End then
-						dragging = false
-					end
-				end)
-			end
-		end)
-	
-		UIS.InputChanged:Connect(function(input)
-			if dragging and (
-				input.UserInputType == Enum.UserInputType.MouseMovement
-					or input.UserInputType == Enum.UserInputType.Touch
-				) then
-				local delta = input.Position - dragStart
-				frame.Position = UDim2.new(
-					startPos.X.Scale,
-					startPos.X.Offset + delta.X,
-					startPos.Y.Scale,
-					startPos.Y.Offset + delta.Y
-				)
-			end
-		end)	
-	end)
-	
-	
-	
-end;
-task.spawn(C_1b);
--- StarterGui.fair ass gui.Frame.Frame.TextButton.Frame5.Frame.TextButton.LocalScript
-local function C_1e()
-local script = G2L["1e"];
-	local args = {
+		local args = {
 		"PickingTools",
 		"I HATE NIGGERS"
 	}
 	game:GetService("ReplicatedStorage"):WaitForChild("RE"):WaitForChild("1Too1l"):InvokeServer(unpack(args))
-end;
-task.spawn(C_1e);
--- StarterGui.fair ass gui.Frame.Frame.TextButton.Frame5.Frame.TextButton.CloseButton
-local function C_20()
-local script = G2L["20"];
-	local button = script.Parent
-	local gui = button:FindFirstAncestorOfClass("ScreenGui")
 	
-	button.MouseButton1Click:Connect(function()
-		gui.Enabled = false
-		gui.Visible = false
-	end)
-end;
-task.spawn(C_20);
--- StarterGui.fair ass gui.Frame.Frame.TextButton.Frame5.Frame.TextButton.LocalScript
-local function C_22()
-local script = G2L["22"];
 	local args = {
 		"PickingTools",
 		"卐"
 	}
 	game:GetService("ReplicatedStorage"):WaitForChild("RE"):WaitForChild("1Too1l"):InvokeServer(unpack(args))
-end;
-task.spawn(C_22);
--- StarterGui.fair ass gui.Frame.Frame.TextButton.Frame5.Frame.TextButton.LocalScript
-local function C_24()
-local script = G2L["24"];
+	
 	local args = {
 		"PickingTools",
 		"pornhub.com"
 	}
 	game:GetService("ReplicatedStorage"):WaitForChild("RE"):WaitForChild("1Too1l"):InvokeServer(unpack(args))
-end;
-task.spawn(C_24);
--- StarterGui.fair ass gui.Frame.Frame.TextButton.Frame5.Frame.TextButton.LocalScript
-local function C_26()
-local script = G2L["26"];
+	
 	local args = {
 		"PickingTools",
 		"FUCK YOU"
 	}
 	game:GetService("ReplicatedStorage"):WaitForChild("RE"):WaitForChild("1Too1l"):InvokeServer(unpack(args))
-end;
-task.spawn(C_26);
--- StarterGui.fair ass gui.Frame.Frame.TextButton.Frame5.Frame.TextButton.LocalScript
-local function C_28()
-local script = G2L["28"];
+	
 	local args = {
 		"PickingTools",
 		"FUCK ALL NIGGERS"
 	}
 	game:GetService("ReplicatedStorage"):WaitForChild("RE"):WaitForChild("1Too1l"):InvokeServer(unpack(args))
-end;
-task.spawn(C_28);
--- StarterGui.fair ass gui.Frame.Frame.TextButton.Frame5.Frame.TextButton.LocalScript
-local function C_2a()
-local script = G2L["2a"];
+	
 	local args = {
 		"PickingTools",
 		"I LOVE WET PUSSY"
 	}
 	game:GetService("ReplicatedStorage"):WaitForChild("RE"):WaitForChild("1Too1l"):InvokeServer(unpack(args))
-end;
-task.spawn(C_2a);
--- StarterGui.fair ass gui.Frame.Frame.TextButton.Frame5.Frame.TextButton.LocalScript
-local function C_2c()
-local script = G2L["2c"];
+	
 	local args = {
 		"PickingTools",
 		"SEX IS FUN"
 	}
 	game:GetService("ReplicatedStorage"):WaitForChild("RE"):WaitForChild("1Too1l"):InvokeServer(unpack(args))
-end;
-task.spawn(C_2c);
--- StarterGui.fair ass gui.Frame.Frame.TextButton.Frame5.Frame.TextButton.LocalScript
-local function C_2e()
-local script = G2L["2e"];
+	
 	local args = {
 		"PickingTools",
 		"NIGGA"
 	}
 	game:GetService("ReplicatedStorage"):WaitForChild("RE"):WaitForChild("1Too1l"):InvokeServer(unpack(args))
-end;
-task.spawn(C_2e);
--- StarterGui.fair ass gui.Frame.Frame.TextButton.Frame5.Frame.TextButton.LocalScript
-local function C_30()
-local script = G2L["30"];
+	
 	local args = {
 		"PickingTools",
 		"FUCKING HELL"
 	}
 	game:GetService("ReplicatedStorage"):WaitForChild("RE"):WaitForChild("1Too1l"):InvokeServer(unpack(args))
-end;
-task.spawn(C_30);
--- StarterGui.fair ass gui.Frame.Frame.TextButton.Frame5.Frame.TextButton.LocalScript
-local function C_32()
-local script = G2L["32"];
+	
 	local args = {
 		"PickingTools",
 		"PORN IS COOL"
 	}
 	game:GetService("ReplicatedStorage"):WaitForChild("RE"):WaitForChild("1Too1l"):InvokeServer(unpack(args))
-end;
-task.spawn(C_32);
--- StarterGui.fair ass gui.Frame.Frame.TextButton.Frame5.Frame.TextButton.LocalScript
-local function C_34()
-local script = G2L["34"];
+	
 	local args = {
 		"PickingTools",
 		"I LIKE RAPING LITTLE GIRLS"
 	}
 	game:GetService("ReplicatedStorage"):WaitForChild("RE"):WaitForChild("1Too1l"):InvokeServer(unpack(args))
-end;
-task.spawn(C_34);
--- StarterGui.fair ass gui.Frame.Frame.TextButton.Frame5.Frame.TextButton.LocalScript
-local function C_36()
-local script = G2L["36"];
+	
 	local args = {
 		"PickingTools",
 		"I LOVE TO RAPE BLACK BABYS"
 	}
 	game:GetService("ReplicatedStorage"):WaitForChild("RE"):WaitForChild("1Too1l"):InvokeServer(unpack(args))
-end;
-task.spawn(C_36);
--- StarterGui.fair ass gui.Frame.Frame.TextButton.Frame5.Frame.TextButton.LocalScript
-local function C_38()
-local script = G2L["38"];
+	
 	local args = {
 		"PickingTools",
 		"SHIT ON ALL NIGGERS"
 	}
 	game:GetService("ReplicatedStorage"):WaitForChild("RE"):WaitForChild("1Too1l"):InvokeServer(unpack(args))
-end;
-task.spawn(C_38);
--- StarterGui.fair ass gui.Frame.Frame.TextButton.Frame5.Frame.TextButton.LocalScript
-local function C_3a()
-local script = G2L["3a"];
+	
 	local args = {
 		"PickingTools",
 		"YOU ARE A FUCKING DUMBASS"
 	}
 	game:GetService("ReplicatedStorage"):WaitForChild("RE"):WaitForChild("1Too1l"):InvokeServer(unpack(args))
-end;
-task.spawn(C_3a);
--- StarterGui.fair ass gui.Frame.Frame.TextButton.Frame5.Frame.TextButton.LocalScript
-local function C_3c()
-local script = G2L["3c"];
+	
 	local args = {
 		"PickingTools",
 		"FUCK YOU NIGGA"
 	}
 	game:GetService("ReplicatedStorage"):WaitForChild("RE"):WaitForChild("1Too1l"):InvokeServer(unpack(args))
-end;
-task.spawn(C_3c);
--- StarterGui.fair ass gui.Frame.Frame.TextButton.Frame5.Frame.TextButton.LocalScript
-local function C_3e()
-local script = G2L["3e"];
+	
 	local args = {
 		"PickingTools",
 		"FUCK NIGGERS"
 	}
 	game:GetService("ReplicatedStorage"):WaitForChild("RE"):WaitForChild("1Too1l"):InvokeServer(unpack(args))
+	end)
 end;
-task.spawn(C_3e);
+task.spawn(C_19);
 -- StarterGui.fair ass gui.Frame.Frame.TextButton.LocalScript
-local function C_40()
-local script = G2L["40"];
-	local test = script.Parent
+local function C_1b()
+local script = G2L["1b"];
+	script.Parent.MouseButton1Click:Connect(function()
+		local test = script.Parent
 	local frame = test.Parent
 	
 	test.MouseButton1Click:Connect(function()
@@ -19254,23 +18804,27 @@ local script = G2L["40"];
 		--for i,v in (Main.MissingEnv) do print(i,v) end
 	end)
 		
+	end)
 end;
-task.spawn(C_40);
+task.spawn(C_1b);
 -- StarterGui.fair ass gui.Frame.Frame.TextButton.LocalScript
-local function C_42()
-local script = G2L["42"];
-	local test = script.Parent
+local function C_1d()
+local script = G2L["1d"];
+	script.Parent.MouseButton1Click:Connect(function()
+		local test = script.Parent
 	local frame = test.Parent
 	
 	test.MouseButton1Click:Connect(function()
 		loadstring(game:HttpGet("https://github.com/AZYsGithub/DexPlusPlus/releases/latest/download/out.lua"))()
 	end)
+	end)
 end;
-task.spawn(C_42);
+task.spawn(C_1d);
 -- StarterGui.fair ass gui.Frame.Frame.TextButton.LocalScript
-local function C_44()
-local script = G2L["44"];
-	local test = script.Parent
+local function C_1f()
+local script = G2L["1f"];
+	script.Parent.MouseButton1Click:Connect(function()
+		local test = script.Parent
 	local frame = test.Parent
 	
 	test.MouseButton1Click:Connect(function()
@@ -20579,25 +20133,26 @@ local script = G2L["44"];
 		end) --67 Mango Mustard
 	
 	end)
+	end)
 end;
-task.spawn(C_44);
+task.spawn(C_1f);
 -- StarterGui.fair ass gui.Frame.Frame.TextButton.LocalScript
-local function C_46()
-local script = G2L["46"];
+local function C_21()
+local script = G2L["21"];
 	print("It's not done yet dumbass")
 	
 end;
-task.spawn(C_46);
+task.spawn(C_21);
 -- StarterGui.fair ass gui.Frame.Frame.TextButton.LocalScript
-local function C_48()
-local script = G2L["48"];
+local function C_23()
+local script = G2L["23"];
 	print("It's not done yet dumbass")
 	
 end;
-task.spawn(C_48);
+task.spawn(C_23);
 -- StarterGui.fair ass gui.Frame.Frame.TextButton.CloseButton
-local function C_4a()
-local script = G2L["4a"];
+local function C_25()
+local script = G2L["25"];
 	local button = script.Parent
 	local gui = button:FindFirstAncestorOfClass("ScreenGui")
 	
@@ -20606,14 +20161,14 @@ local script = G2L["4a"];
 		gui.Visible = false
 	end)
 end;
-task.spawn(C_4a);
+task.spawn(C_25);
 -- StarterGui.fair ass gui.Frame.Frame.TextButton.LocalScript
-local function C_4d()
-local script = G2L["4d"];
+local function C_28()
+local script = G2L["28"];
 	script.Parent.MouseButton1Click:Connect(function()
 		loadstring(game:HttpGet("https://raw.githubusercontent.com/itzstr1xxzz-hash/brookhavenlagger/refs/heads/main/67nigges.lua"))()
 	end)
 end;
-task.spawn(C_4d);
+task.spawn(C_28);
 
 return G2L["1"], require;
